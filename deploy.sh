@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy nginx conf to system location
-sudo cp /Users/mike/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
+cp /Users/mike/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
 
 # Test the configuration
 nginx -t
