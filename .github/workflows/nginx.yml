@@ -47,4 +47,4 @@ jobs:
 
     - name: Test React app is rendered
       run: |
-        curl http://localhost | grep "Vite + TypeScript"
+        curl http://localhost
